@@ -89,6 +89,17 @@ body {
   width: 100%;
 }
 
+input[type=text], [type=password] , [type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
 .react {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,16 +150,14 @@ body {
 }
 
 .container {
-  -webkit-box-shadow: 0px 2px 1px 1px #324B4B;
-          box-shadow: 0px 2px 1px 1px #324B4B;
-  -webkit-transition: all 0.5s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  -webkit-transition: all 0.2s ease-out;
   transition: all 0.5s ease-in;
-  padding: 6px;
+  padding: 20px;
   width: 35%;
   text-align: center;
   margin: 8% 25% 0% 30%;
   background-color: white;
-  border-radius: 5px;
 }
 
 .container img {
@@ -172,35 +181,50 @@ body {
 }
 
 .input {
-  width: 60%;
-  margin: 2%;
-  padding: 2%;
-  font-size: 17px;
+  width: 49%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-.btn {
-  background-color: #078000;
+.btn-blue {
+  background-color: #549fec;
   color: white;
 }
 
-.btn:hover {
-  background-color: #00793E;
+.btn-blue:hover {
+  background-color: #398ee6;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #45a049;
   cursor: pointer;
 }
 
 .link {
-  color: #078000;
+  color: #646564;
   text-decoration: none;
   margin-right: 20px;
 }
 
 .link:hover {
-  color: #00793E;
+  color: #48494a;
   text-decoration: underline;
 }
 
 .right {
-  margin-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .left {
