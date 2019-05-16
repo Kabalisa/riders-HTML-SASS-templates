@@ -5,14 +5,6 @@ body {
   width: 100%;
 }
 
-<<<<<<< HEAD
-.container {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  padding: 20px;
-=======
 .menu {
   -webkit-box-shadow: 0px 2px 2px #AFA8BA;
           box-shadow: 0px 2px 2px #AFA8BA;
@@ -153,7 +145,6 @@ body {
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   padding: 6px;
->>>>>>> create user profile
   width: 35%;
   text-align: center;
   margin: 8% 25% 0% 30%;
@@ -182,7 +173,6 @@ body {
 }
 
 .input {
-<<<<<<< HEAD
   width: 49%;
   color: white;
   padding: 14px 20px;
@@ -229,7 +219,6 @@ input[type="text"],
 
 .btn-green {
   background-color: teal;
-=======
   width: 60%;
   margin: 2%;
   padding: 2%;
@@ -238,18 +227,15 @@ input[type="text"],
 
 .btn {
   background-color: #078000;
->>>>>>> create user profile
   color: white;
   width: 70%;
 }
 
-<<<<<<< HEAD
 .btn-green:hover {
   background-color: #209b87;
-=======
+}
 .btn:hover {
   background-color: #00793E;
->>>>>>> create user profile
   cursor: pointer;
 }
 
@@ -263,8 +249,6 @@ input[type="text"],
   color: #00793E;
   text-decoration: underline;
 }
-<<<<<<< HEAD
-=======
 
 .right {
   margin-right: 10px;
@@ -273,5 +257,4 @@ input[type="text"],
 .left {
   margin-left: 55px;
 }
->>>>>>> create user profile
 /*# sourceMappingURL=login.css.map */
