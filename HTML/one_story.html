@@ -3,6 +3,7 @@
   <head> 
     <title>One Story</title>
     <link rel="stylesheet" href="../assets/css/oneStory.css">
+    <link rel="stylesheet" href="../assets/css/comment.css">
   </head>
   <body>
     <div class="menu">
@@ -75,5 +76,48 @@
               </p>
       </div>
     </div>
+    <div class="container2">
+    <div class="related">
+      <strong><p>Read more Related Posts:</p></strong>
+      <div class="posts">
+      <div class="post">
+        <img src="../assets/img/lorem.png" class="post-img">
+        <div class="details">
+          <h4><b>blanditiis praesentium voluptatum</b></h4>
+          <input type="submit" value="lorem" class="read">
+        </div>
+      </div>
+      <div class="post">
+        <img src="../assets/img/ipsum.png" class="post-img">
+        <div class="details">
+          <h4><b>voluptatibus maiores alias consequatur</b></h4>
+          <input type="submit" value="lorem" class="read">
+        </div>
+      </div>
+      <div class="post">
+        <img src="../assets/img/images.png" class="post-img">
+        <div class="details">
+          <h4><b>Temporibus autem quibusdam et aut officiis</b></h4>
+          <input type="submit" value="lorem" class="read">
+        </div>
+      </div>
+    </div><br><br>
+    <div class="comments">
+      <h3>Comments</h3>
+      <div class="overlap">
+        <div class="typeComment" id="one" style="display: block;" onclick="comment()">
+          <img src="../assets/img/avatar.png " class="commentAvatar">&nbsp;&nbsp;&nbsp;Write a comment...
+        </div>
+        <div class="comment"  style="display: none;" id="two">
+            <img src="../assets/img/avatar.png " class="commentAvatar">&nbsp;&nbsp;&nbsp;Fiston Kabalisa<br>
+          <textarea class="writeComment" autofocus></textarea><br>
+          <input type="button" value="comment" name="comment" class="publish">
+          <input type="button" value="cancel" name="cancel" class="noPublish" onclick="comment()">
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="../assets/js/comment.js"></script>
   </body>
 </html>

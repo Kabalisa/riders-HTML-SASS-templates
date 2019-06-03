@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+@mixin Transition($trans) {
+  box-shadow: $trans;
+  color: #fcf1ca;
+}
+@mixin layout($padding, $shadow) {
+  box-shadow: $shadow;
+  transition: all 0.5s ease-in;
+  padding: $padding;
+}
+.menu {
+  a {
+    @include layout(6px, 0px 0px 0px black);
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    &:hover {
+      @include Transition(0px -2px 2px #fcf1ca);
+    }
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+  }
+  .dropdown {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: teal;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    a {
+      color: #ffffff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  @include layout(16px, 0px 2px 2px #afa8ba);
+  border-bottom: 1px solid;
+  border-color: #fbf8ff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: teal;
+  z-index: 1;
+  &:hover {
+    @include Transition(0px 3px 6px #afa8ba);
+  }
+}
