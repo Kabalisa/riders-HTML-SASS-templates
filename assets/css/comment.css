@@ -19,20 +19,21 @@
 }
 
 .posts .post {
+  padding: 16px;
   margin-left: 1%;
   margin-right: 1%;
   width: 32%;
-  background-color: #dadde2;
-  -webkit-box-shadow: 0px 2px 1px 1px #324B4B;
-          box-shadow: 0px 2px 1px 1px #324B4B;
+  -webkit-box-shadow: 0px 0px 1px 1px #324b4b;
+          box-shadow: 0px 0px 1px 1px #324b4b;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   cursor: pointer;
+  border: 1px solid teal;
 }
 
 .posts .post:hover {
-  -webkit-box-shadow: 0px 3px 2px 2px #324B4B;
-          box-shadow: 0px 3px 2px 2px #324B4B;
+  -webkit-box-shadow: 0px 1px 2px 2px #324b4b;
+          box-shadow: 0px 1px 2px 2px #324b4b;
 }
 
 .posts .post img {
@@ -88,10 +89,111 @@
   width: 72%;
   padding: 16px;
   margin: 2% 0%;
+  font-size: 17px;
+  cursor: text;
+  -webkit-box-shadow: 0px 1px 1px 1px #324b4b;
+          box-shadow: 0px 1px 1px 1px #324b4b;
+  z-index: 1;
+}
+
+.writeComment {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: comment;
+  width: 99%;
+  height: 120px;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.commentAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.comment {
+  border: solid;
+  border-radius: 10px;
+  width: 75%;
+  border-color: #4b4a54;
+}
+
+.publish {
+  padding: 13px;
+  background-color: #0066ff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.noPublish {
+  padding: 13px;
+  background-color: #7e0000;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.name {
+  color: teal;
+  cursor: pointer;
+}
+
+.userComment {
+  width: 72%;
+  margin: 2% 0%;
+  -webkit-box-shadow: 0px 1px 1px 1px #324b4b;
+          box-shadow: 0px 1px 1px 1px #324b4b;
+  padding: 16px;
+}
+
+.userComment #like {
+  -webkit-box-shadow: 0px 0px 0px #afa8ba;
+          box-shadow: 0px 0px 0px #afa8ba;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  padding: 6px;
+  width: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.userComment #like:hover {
+  opacity: 1;
+}
+
+.comments {
+  width: 72%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: 23%;
+}
+
+.overlap {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "comment";
+}
+
+.typeComment {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: comment;
+  width: 72%;
+  padding: 16px;
+  margin: 2% 0%;
   font-size: 20px;
   cursor: text;
-  -webkit-box-shadow: 0px 2px 1px 1px #324B4B;
-          box-shadow: 0px 2px 1px 1px #324B4B;
+  -webkit-box-shadow: 0px 1px 1px 1px #324b4b;
+          box-shadow: 0px 1px 1px 1px #324b4b;
   z-index: 1;
 }
 

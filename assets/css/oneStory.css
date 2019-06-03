@@ -137,6 +137,11 @@ body {
   color: #fcf1ca;
 }
 
+.footer {
+  text-align: center;
+  padding: 16px;
+}
+
 .title {
   width: 100%;
   text-align: center;
@@ -165,12 +170,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 10%;
-  height: 300px;
+  width: 16%;
+  height: 400px;
   position: -webkit-sticky;
   position: sticky;
   top: 12%;
-  z-index: -1;
 }
 
 .react img {
@@ -189,6 +193,39 @@ body {
   opacity: 1;
 }
 
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 5px 0;
+  cursor: pointer;
+  position: relative;
+  top: -10px;
+}
+
+.div .ratings {
+  width: 15px;
+  height: 34px;
+  margin: 0 5px;
+  opacity: 0.7;
+}
+
+.div .ratings:hover {
+  opacity: 1;
+}
+
+.div .ratings1 {
+  width: 12px;
+  height: 30px;
+  margin: 0 5px;
+  position: relative;
+  top: 3px;
+}
+
 .words {
   width: 60%;
 }
@@ -201,5 +238,46 @@ body {
 .words p {
   font-size: 18px;
   line-height: 30px;
+}
+
+.author {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+  position: relative;
+  top: 72px;
+}
+
+.reading {
+  text-align: center;
+  width: 15%;
+}
+
+.follow {
+  padding: 4px;
+  width: 25%;
+  font-size: 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: teal;
+  border-color: teal;
+  -webkit-box-shadow: 0px 0px 0px 0px #324b4b;
+          box-shadow: 0px 0px 0px 0px #324b4b;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.follow:hover {
+  -webkit-box-shadow: 0px 1px 0px #324b4b;
+          box-shadow: 0px 1px 0px #324b4b;
 }
 /*# sourceMappingURL=oneStory.css.map */
