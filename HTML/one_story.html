@@ -101,10 +101,23 @@
           <input type="submit" value="lorem" class="read">
         </div>
       </div>
-    </div><br><br><br>
-    kjhgvcfxcvbn,thumbs-up-hand-symbolm
-    mnbvbnnb,mbnb,.nmb m,mnbmn,mb
+    </div><br><br>
+    <div class="comments">
+      <h3>Comments</h3>
+      <div class="overlap">
+        <div class="typeComment" id="one" style="display: block;" onclick="comment()">
+          <img src="../assets/img/avatar.png " class="commentAvatar">&nbsp;&nbsp;&nbsp;Write a comment...
+        </div>
+        <div class="comment"  style="display: none;" id="two">
+            <img src="../assets/img/avatar.png " class="commentAvatar">&nbsp;&nbsp;&nbsp;Fiston Kabalisa<br>
+          <textarea class="writeComment" autofocus></textarea><br>
+          <input type="button" value="comment" name="comment" class="publish">
+          <input type="button" value="cancel" name="cancel" class="noPublish" onclick="comment()">
+        </div>
+      </div>
+    </div>
     </div>
   </div>
+  <script src="../assets/js/comment.js"></script>
   </body>
 </html>
