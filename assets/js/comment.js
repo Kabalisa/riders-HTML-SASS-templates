@@ -7,5 +7,6 @@ const comment = () => {
   } else {
     typeComment.style.display = "none";
     writeComment.style.display = "block";
+    document.getElementById("text").focus();
   }
 };
