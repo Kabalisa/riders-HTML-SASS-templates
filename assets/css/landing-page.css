@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -64,8 +64,7 @@ body {
   padding: 10px 50px 10px 10px;
 }
 
-.row:before,
-.row:after {
+.row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
@@ -92,4 +91,5 @@ body {
   border: 0;
   cursor: pointer;
 }
+
 /*# sourceMappingURL=landing-page.css.map */

@@ -28,13 +28,14 @@
     }
   }
   .category {
-    border: 1px solid teal;
+    border: none;
+    background-color: teal;
+    color: white;
     padding: 8px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover {
       border: 2px solid teal;
-      color: teal;
     }
   }
 }
