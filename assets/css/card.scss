@@ -1,0 +1,37 @@
+@import "./style";
+.box {
+    margin-top: 1%;
+    margin-left: 1%;
+	box-shadow: 0px 1px 3px black;
+	width: 28%;
+	transition: all 0.5s ease-in;
+    padding: 1px 20px 20px;
+    h1 {
+        color: #FFFFFF;
+        float: left;
+    }
+    h3 {
+        font-weight: 100;
+        color: #FFFFFF;
+    }
+    img{
+        float: right;
+        width: 60px;
+    }
+}
+
+.bg-red {
+	background-color: #d9534fe0;
+}
+
+.bg-blue {
+	background-color: #136cabe0;
+}
+
+.bg-green {
+	background-color: #4b8c10e0;
+}
+
+.bg-yellow {
+	background-color: #b1ac19e0;
+}
