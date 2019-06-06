@@ -97,15 +97,22 @@ body {
     }
   }
   ul li {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 6px;
-    color: teal;
+    color: black;
     font-weight: 60;
     border-left: solid 4px teal;
     margin-left: 4px;
     cursor: pointer;
     transition: all 0.3s;
     list-style-type: none;
+  }
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .active {
+    background-color: teal;
   }
   ul li:hover {
     border-left: solid 2px black;
@@ -135,4 +142,31 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+input {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid teal;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+.buttons {
+  height: 4em;
+  width: 30%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  button {
+    width: 40%;
+    height: 60%;
+    border-radius: 10px;
+    font-size: 1.2em;
+  }
+  #submit {
+    background-color: teal;
+    margin-right: 5%;
+    color: white;
+  }
 }

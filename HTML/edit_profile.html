@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>User Dashboard</title>
+    <title>One Story</title>
     <link rel="stylesheet" href="../assets/css/profile_dashboard.css">
 </head>
 
 <body>
     <div class="menu">
         <img src="../assets/img/writing.png" class="logo">
-        <a href="landing_page.html">Home</a>
+        <a href="#">Home</a>
         <a href="#">Technologies</a>
         <a href="#">Politics</a>
         <a href="#">Health</a>
@@ -30,7 +30,7 @@
     <div class="main">
         <div class="side_menu">
             <ul id="list">
-                <li><a href="edit_profile.html">Edit Profile</a></li>
+                <li class="active">Edit Profile</li>
                 <li>Bio</li>
                 <li>Articles</li>
                 <li>Followers</li>
@@ -40,7 +40,13 @@
 
         </div>
         <div class='content'>
-
+            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Short Bio">
+            <input type="file" placeholder="avatar" />
+            <div class="buttons">
+                <button id="submit">Save</button>
+                <button id="cancel">Cancel</button>
+            </div>
         </div>
     </div>
 </body>

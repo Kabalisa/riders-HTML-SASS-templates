@@ -133,9 +133,9 @@ body {
 }
 
 .side_menu ul li {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 6px;
-  color: teal;
+  color: black;
   font-weight: 60;
   border-left: solid 4px teal;
   margin-left: 4px;
@@ -143,6 +143,15 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   list-style-type: none;
+}
+
+.side_menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.side_menu .active {
+  background-color: teal;
 }
 
 .side_menu ul li:hover {
@@ -186,5 +195,37 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+input {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid teal;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+.buttons {
+  height: 4em;
+  width: 30%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+}
+
+.buttons button {
+  width: 40%;
+  height: 60%;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.buttons #submit {
+  background-color: teal;
+  margin-right: 5%;
+  color: white;
 }
 /*# sourceMappingURL=profile_dashboard.css.map */
