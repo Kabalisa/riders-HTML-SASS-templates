@@ -2,11 +2,7 @@
 <html>
 
 <head>
-<<<<<<< HEAD
-    <title>User Dashboard</title>
-=======
     <title>One Story</title>
->>>>>>> create user profile
     <link rel="stylesheet" href="../assets/css/profile_dashboard.css">
 </head>
 
@@ -23,11 +19,7 @@
         <a href="#">Design</a>
         <a href="#">More</a>
         <div class="dropdown">
-<<<<<<< HEAD
-            <img src="../assets/img/profile_avatar.png " class="avatar">
-=======
             <img src="../assets/img/avatar.png " class="avatar">
->>>>>>> create user profile
             <div class="dropdown-content">
                 <a href="#">Profile</a>
                 <a href="#">New story</a>
@@ -38,7 +30,7 @@
     <div class="main">
         <div class="side_menu">
             <ul id="list">
-                <li><a href="edit_profile.html">Edit Profile</a></li>
+                <li class="active">Edit Profile</li>
                 <li>Bio</li>
                 <li>Articles</li>
                 <li>Followers</li>
@@ -48,7 +40,13 @@
 
         </div>
         <div class='content'>
-
+            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Short Bio">
+            <input type="file" placeholder="avatar" />
+            <div class="buttons">
+                <button id="submit">Save</button>
+                <button id="cancel">Cancel</button>
+            </div>
         </div>
     </div>
 </body>
