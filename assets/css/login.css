@@ -5,146 +5,12 @@ body {
   width: 100%;
 }
 
-.menu {
-  -webkit-box-shadow: 0px 2px 2px #AFA8BA;
-          box-shadow: 0px 2px 2px #AFA8BA;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  padding: 16px;
-  border-bottom: 1px solid;
-  border-color: #FBF8FF;
-  width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 20px;
-  background-color: teal;
-}
-
-.menu a {
-  -webkit-box-shadow: 0px 0px 0px black;
-          box-shadow: 0px 0px 0px black;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  padding: 6px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  margin: 5px;
-}
-
-.menu a:hover {
-  -webkit-box-shadow: 0px -2px 2px #FCF1CA;
-          box-shadow: 0px -2px 2px #FCF1CA;
-  color: #FCF1CA;
-}
-
-.menu .logo {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  right: 50px;
-  cursor: pointer;
-}
-
-.menu .dropdown {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  left: 50px;
-  border-radius: 100%;
-  cursor: pointer;
-}
-
-.menu:hover {
-  -webkit-box-shadow: 0px 3px 6px #AFA8BA;
-          box-shadow: 0px 3px 6px #AFA8BA;
-  color: #FCF1CA;
-}
-
-.title {
-  width: 100%;
-  text-align: center;
-}
-
-.story {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-}
-
-.react {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 10%;
-  height: 300px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 12%;
-}
-
-.react img {
-  -webkit-box-shadow: 0px 0px 0px #AFA8BA;
-          box-shadow: 0px 0px 0px #AFA8BA;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  padding: 6px;
-  width: 30px;
-  margin: 10px;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.react img:hover {
-  opacity: 1;
-}
-
-.words {
-  width: 60%;
-}
-
-.words img {
-  width: 100%;
-  height: 500px;
-}
-
-.words p {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-body {
-  background-color: teal;
-}
-
 .container {
-  -webkit-box-shadow: 0px 2px 1px 1px #324B4B;
-          box-shadow: 0px 2px 1px 1px #324B4B;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  padding: 6px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  padding: 20px;
   width: 35%;
   text-align: center;
   margin: 8% 25% 0% 30%;
@@ -219,42 +85,23 @@ input[type="text"],
 
 .btn-green {
   background-color: teal;
-  width: 60%;
-  margin: 2%;
-  padding: 2%;
-  font-size: 17px;
-}
-
-.btn {
-  background-color: #078000;
   color: white;
   width: 70%;
 }
 
 .btn-green:hover {
   background-color: #209b87;
-}
-.btn:hover {
-  background-color: #00793E;
   cursor: pointer;
 }
 
 .link {
-  color: #078000;
+  color: #646564;
   text-decoration: none;
   margin-right: 20px;
 }
 
 .link:hover {
-  color: #00793E;
+  color: #48494a;
   text-decoration: underline;
-}
-
-.right {
-  margin-right: 10px;
-}
-
-.left {
-  margin-left: 55px;
 }
 /*# sourceMappingURL=login.css.map */
