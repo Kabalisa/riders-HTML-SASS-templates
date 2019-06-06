@@ -152,6 +152,7 @@ body {
 
 .side_menu .active {
   background-color: teal;
+  color: white;
 }
 
 .side_menu ul li:hover {
