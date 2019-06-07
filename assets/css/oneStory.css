@@ -219,6 +219,8 @@ body {
 .title {
   width: 100%;
   text-align: center;
+  position: relative;
+  top: 62px;
 }
 
 .story {
@@ -328,7 +330,7 @@ body {
           flex-direction: row;
   margin-bottom: 10px;
   position: relative;
-  top: 72px;
+  top: 65px;
 }
 
 .reading {

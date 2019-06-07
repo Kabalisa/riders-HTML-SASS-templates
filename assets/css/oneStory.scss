@@ -2,6 +2,8 @@
 .title {
   width: 100%;
   text-align: center;
+  position: relative;
+  top: 62px;
 }
 .story {
   margin-top: 80px;
@@ -71,7 +73,7 @@
   flex-direction: row;
   margin-bottom: 10px;
   position: relative;
-  top: 72px;
+  top: 65px;
 }
 
 .reading {

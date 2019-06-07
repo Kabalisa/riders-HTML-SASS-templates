@@ -219,6 +219,8 @@ body {
 .title {
   width: 100%;
   text-align: center;
+  position: relative;
+  top: 62px;
 }
 
 .story {
@@ -328,7 +330,7 @@ body {
           flex-direction: row;
   margin-bottom: 10px;
   position: relative;
-  top: 72px;
+  top: 65px;
 }
 
 .reading {
@@ -339,7 +341,7 @@ body {
 .follow {
   padding: 4px;
   width: 25%;
-  font-size: 11px;
+  font-size: 10px;
   border-radius: 10px;
   cursor: pointer;
   color: teal;
