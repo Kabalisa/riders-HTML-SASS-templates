@@ -216,9 +216,10 @@ body {
       flex-wrap: wrap;
 }
 
-.content {
+.write_content {
   width: 70%;
   margin-left: 200px;
+  margin-top: 9%;
 }
 
 .saveContent {
