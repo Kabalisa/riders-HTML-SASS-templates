@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 
 .content {
   position: fixed;
-  background: #00808052;
+  background: #00808073;
   color: #f1f1f1;
   min-width: 100%;
   min-height: 100%;
@@ -32,7 +32,7 @@ body {
 
 .row .description {
   font-size: 60px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   width: 60%;
   float: right;
 }
@@ -64,7 +64,8 @@ body {
   padding: 10px 50px 10px 10px;
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
   display: table;
   content: " ";
   clear: both;
@@ -82,7 +83,8 @@ body {
 .btn-menu .btn-info {
   font-size: 20px;
   font-weight: 900;
-  background: #ff811f;
+  background: teal;
+  color: #ffffff;
   padding: 16px;
   border-radius: 31px;
   float: left;
@@ -91,5 +93,4 @@ body {
   border: 0;
   cursor: pointer;
 }
-
 /*# sourceMappingURL=landing-page.css.map */
