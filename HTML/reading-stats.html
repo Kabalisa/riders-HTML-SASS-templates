@@ -1,86 +1,95 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>User Dashboard</title>
-    <link rel="stylesheet" href="../assets/css/card.css">
-</head>
+    <link rel="stylesheet" href="../assets/css/card.css" />
+  </head>
 
-<body>
-  <div class="menu">
-    <div class="header">
-      <img src="../assets/img/writing.png" id="logo" />
-      <div class="dropdown">
-        <img src="../assets/img/avatar.png " onclick="myFunction()" class="avatar" />
-        <div class="dropdown-content" id="myDropdown">
-          <a href="./edit_profile.html">Profile</a>
-          <a href="./create_article.html">New story</a>
-          <a href="./index.html">Sign out</a>
+  <body>
+    <div class="menu">
+      <div class="header">
+        <img src="../assets/img/writing.png" id="logo" />
+        <div class="dropdown">
+          <img
+            src="../assets/img/avatar.png "
+            onclick="myFunction()"
+            class="avatar"
+          />
+          <div class="dropdown-content" id="myDropdown">
+            <div class="dropdown-profile">
+              <img src="../assets/img/avatar.png " class="profile-avatar" />
+              <div class="profile-navbar">
+                <a href="./profile_dashboard.html">username</a> <br /><br />
+                <a href="./profile_dashboard.html">@username.email.com</a>
+              </div>
+            </div>
+            <a href="./create_article.html">New story</a>
+            <a href="./index.html">Sign out</a>
+          </div>
         </div>
+        <div class="notification-bar">
+          <img src="../assets/img/notification.png" class="icon" />
+        </div>
+        <input type="text" class="input-search" placeholder="Search..." />
       </div>
-      <div class="notification-bar">
-      <img src="../assets/img/notification.png" class="icon"/>
+      <div class="navbar">
+        <ul>
+          <li><a href="landing_page.html">Home</a></li>
+          <li><a href="#">Technologies</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Educational</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Development</a></li>
+          <li><a href="#">Human Parts</a></li>
+          <li><a href="#">Science</a></li>
+        </ul>
       </div>
-      <input type="text" class="input-search" placeholder="Search..."/>
     </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="landing_page.html">Home</a></li>
-        <li><a href="#">Technologies</a></li>
-        <li><a href="#">Politics</a></li>
-        <li><a href="#">Health</a></li>
-        <li><a href="#">Educational</a></li>
-        <li><a href="#">Design</a></li>
-        <li><a href="#">Culture</a></li>
-        <li><a href="#">Entertainment</a></li>
-        <li><a href="#">Development</a></li>
-        <li><a href="#">Human Parts</a></li>
-        <li><a href="#">Science</a></li>
-      </ul>
-    </div>
-  </div>
     <div class="main">
-        <div class="side_menu">
-            <ul id="list">
-                <li><a href="edit_profile.html">Edit Profile</a></li>
-                <li>Bio</li>
-                <li><a href="viewArticles.html">Articles</a></li>
-                <li>Followers</li>
-                <li>Following</li>
-                <li class="active"><a href="reading-stats.html">Reading statistics</a></li>
-                <li>settings</li>
-            </ul>
-
+      <div class="side_menu">
+        <ul id="list">
+          <li><a href="edit_profile.html">Edit Profile</a></li>
+          <li>Bio</li>
+          <li><a href="viewArticles.html">Articles</a></li>
+          <li>Followers</li>
+          <li>Following</li>
+          <li class="active">
+            <a href="reading-stats.html">Reading statistics</a>
+          </li>
+          <li>settings</li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="box bg-blue">
+          <h3>Total Readers</h3>
+          <h1>5</h1>
+          <img src="../assets/img/users-white-icon.png" />
         </div>
-        <div class='content'>
-                <div class="box bg-blue">
-                        <h3>Total Readers</h3>
-                        <h1>5</h1>
-                        <img src="../assets/img/users-white-icon.png">
-                    </div>
-                    <div class="box bg-yellow">
-                        <h3>Total Likes</h3>
-                        <h1>10</h1>
-                        <img src="../assets/img/like-white-icon.png">
-                    </div>
-                    <div class="box bg-red">
-                            <h3>Total Dislikes</h3>
-                            <h1>10</h1>
-                            <img src="../assets/img/dislike-white-icon.png">
-                        </div>
-                    <div class="box bg-green">
-                        <h3>Total Comments</h3>
-                        <h1>20</h1>
-                        <img src="../assets/img/comments-white-icon.png">
-                    </div>
-                    <div class="box bg-light-blue">
-                        <h3>Total shares</h3>
-                        <h1>25</h1>
-                        <img src="../assets/img/sharing-white-icon.png">
-                    </div>
+        <div class="box bg-yellow">
+          <h3>Total Likes</h3>
+          <h1>10</h1>
+          <img src="../assets/img/like-white-icon.png" />
         </div>
+        <div class="box bg-red">
+          <h3>Total Dislikes</h3>
+          <h1>10</h1>
+          <img src="../assets/img/dislike-white-icon.png" />
+        </div>
+        <div class="box bg-green">
+          <h3>Total Comments</h3>
+          <h1>20</h1>
+          <img src="../assets/img/comments-white-icon.png" />
+        </div>
+        <div class="box bg-light-blue">
+          <h3>Total shares</h3>
+          <h1>25</h1>
+          <img src="../assets/img/sharing-white-icon.png" />
+        </div>
+      </div>
     </div>
     <script src="../assets/js/submenu.js"></script>
-</body>
-
+  </body>
 </html>

@@ -62,28 +62,57 @@ body {
       }
       .dropdown-content {
         display: none;
+        min-width: 220px;
         position: absolute;
+        right: 5px;
         background-color: teal;
-        min-width: 160px;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
         a {
-          color: #ffffff;
+          background-color: #e2e2e2;
+          color: teal;
           padding: 12px 16px;
           text-decoration: none;
           display: block;
           &:hover {
-            background-color: #e2e2e2;
-            color: teal;
-            border-left: 4px solid teal;
-            border-bottom-left-radius: 10px;
-            border-top-left-radius: 10px;
+            border-left: 4px solid;
+          }
+        }
+        .dropdown-profile {
+          background-color: #e2e2e2;
+          color: black;
+          padding: 12px 16px 25px;
+          text-decoration: none;
+          display: block;
+          border-bottom: 1px solid teal;
+          .profile-navbar {
+            line-height: 2px;
+            a {
+              &:hover {
+                border: 0px;
+              }
+            }
+          }
+          &:hover {
+            border-left: 4px solid;
+          }
+          .profile-avatar {
+            width: 50px;
+            border-radius: 100%;
+            margin-right: 10px;
+          }
+          div {
+            float: right;
           }
         }
       }
       .show {
         display: block;
+      }
+      .profile-grid {
+        display: flex;
+        flex-direction: column;
       }
     }
   }

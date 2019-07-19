@@ -1,5 +1,5 @@
 body {
-  background-color: teal;
+  background-image: url("../img/auth-background.jpg");
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   width: 100%;
@@ -14,7 +14,7 @@ body {
   width: 35%;
   text-align: center;
   margin: 8% 25% 0% 30%;
-  background-color: white;
+  background-color: #ffffffb3;
   border-radius: 5px;
 }
 
@@ -58,9 +58,9 @@ body {
   margin-left: 55px;
 }
 
-input[type="text"],
-[type="password"],
-[type="email"] {
+input[type='text'],
+[type='password'],
+[type='email'] {
   width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
