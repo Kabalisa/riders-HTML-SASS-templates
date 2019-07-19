@@ -14,17 +14,27 @@
       <div class="header">
         <img src="../assets/img/writing.png" id="logo" />
         <div class="dropdown">
-          <img src="../assets/img/avatar.png " onclick="myFunction()" class="avatar" />
+          <img
+            src="../assets/img/avatar.png "
+            onclick="myFunction()"
+            class="avatar"
+          />
           <div class="dropdown-content" id="myDropdown">
-            <a href="./edit_profile.html">Profile</a>
+            <div class="dropdown-profile">
+              <img src="../assets/img/avatar.png " class="profile-avatar" />
+              <div class="profile-navbar">
+                <a href="./profile_dashboard.html">username</a> <br /><br />
+                <a href="./profile_dashboard.html">@username.email.com</a>
+              </div>
+            </div>
             <a href="./create_article.html">New story</a>
             <a href="./index.html">Sign out</a>
           </div>
         </div>
         <div class="notification-bar">
-        <img src="../assets/img/notification.png" class="icon"/>
+          <img src="../assets/img/notification.png" class="icon" />
         </div>
-        <input type="text" class="input-search" placeholder="Search..."/>
+        <input type="text" class="input-search" placeholder="Search..." />
       </div>
       <div class="navbar">
         <ul>
@@ -62,19 +72,19 @@
         [{ font: [] }],
         [{ header: [1, 2, 3, 4, 5, 6, false] }],
         [{ align: [] }],
-        ["bold", "italic", "underline", "strike"],
-        ["blockquote", "code-block"],
-        [{ script: "sub" }, { script: "super" }],
-        [{ indent: "-1" }, { indent: "+1" }],
+        ['bold', 'italic', 'underline', 'strike'],
+        ['blockquote', 'code-block'],
+        [{ script: 'sub' }, { script: 'super' }],
+        [{ indent: '-1' }, { indent: '+1' }],
         [{ color: [] }, { background: [] }],
-        ["link", "image", "video"]
+        ['link', 'image', 'video']
       ];
-      let quill = new Quill("#articleBody", {
+      let quill = new Quill('#articleBody', {
         modules: {
           toolbar: toolbarOptions
         },
-        placeholder: "Write an article...",
-        theme: "snow"
+        placeholder: 'Write an article...',
+        theme: 'snow'
       });
     </script>
     <script src="../assets/js/submenu.js"></script>
